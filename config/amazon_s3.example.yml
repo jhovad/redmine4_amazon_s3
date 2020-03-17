@@ -1,0 +1,26 @@
+production:
+
+  # AWS access key (required)
+  access_key_id:
+
+  # AWS secret key (required)
+  secret_access_key:
+
+  # Bucket name (required)
+  bucket:
+
+  # Identifier for the region in which the bucket was created (required)
+  region:
+
+  # Folder name inside bucket where uploaded files should be stored (e.g. 'attachments')
+  # The default behavior is to store data in the bucket's root directory
+  # attachments_folder:
+
+  # Folder where attachment thumbnails are stored
+  # thumbnails_folder: thumbnails/
+
+development:
+  # Copy configuration from `production` if desired
+
+test:
+  # Copy configuration from `production` if desired
