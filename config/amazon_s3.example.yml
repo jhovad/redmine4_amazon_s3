@@ -19,6 +19,9 @@ production:
   # Folder where attachment thumbnails are stored
   # thumbnails_folder: thumbnails/
 
+  # Whether objects are private, needing presigned URLs (default false)
+  # private: true
+
 development:
   # Copy configuration from `production` if desired
 
