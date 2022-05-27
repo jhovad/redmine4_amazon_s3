@@ -23,6 +23,7 @@ module AmazonS3
         :region             => nil,
         :attachments_folder => nil,
         :thumbnails_folder  => nil,
+        :private            => false,
       }
     end
 
@@ -64,6 +65,10 @@ module AmazonS3
 
     def region
       @config[:region]
+    end
+
+    def private?
+      @config[:private]
     end
 
     def attachments_folder
